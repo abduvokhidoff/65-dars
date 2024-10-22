@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.input_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.input_wrapper>input {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.input_wrapper>button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: grey;
+}
+
+.cost_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: grey;
+    padding: 30px 40px 30px 30px;
+    border-radius: 20px;
+}
+
+.plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+}
+
+
+.minus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.number h2 {
+    font-size: 38px;
+}
+
+.minus>img {
+    width: 40px;
+    height: 40px;
+}
+
+.plus>img {
+    width: 20px;
+    height: 20px;
+}
+
+.set_color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.set_color p {
+    color: white;
+    font-size: 24px;
+}
